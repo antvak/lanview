@@ -1,0 +1,27 @@
+{
+  "name": "lanview",
+  "version": "0.0.1",
+  "description": "App for viewing lan ip-range",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint backend/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antvak/lanview.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/antvak/lanview/issues"
+  },
+  "homepage": "https://github.com/antvak/lanview#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-nmap": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
+}
